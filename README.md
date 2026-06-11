@@ -4,7 +4,7 @@ Class-Specific Feature Explanation Method (CS-FEM) is a lightweight Python packa
 
 - `FEM`: the original Feature Explanation Method, which is class-agnostic.
 - `CSFEM`: a class-specific extension of FEM with two weighting modes.
-- `GradCAM`: a thin wrapper around `pytorch-grad-cam` so the outputs can be compared side by side.
+- `GradCAM`: a thin wrapper around [`pytorch-grad-cam`](https://github.com/jacobgil/pytorch-grad-cam) so the outputs can be compared side by side.
 
 This repository accompanies a workshop paper and is intentionally small: the core implementation lives in `csfem/` and the end-to-end demo lives in `examples/demo.ipynb`.
 
