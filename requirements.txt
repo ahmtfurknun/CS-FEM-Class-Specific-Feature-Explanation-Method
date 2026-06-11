@@ -1,0 +1,8 @@
+numpy
+torch
+torchvision
+opencv-python
+matplotlib
+requests
+pillow
+grad-cam
